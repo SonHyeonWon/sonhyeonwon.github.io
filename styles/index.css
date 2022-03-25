@@ -30,7 +30,7 @@
 
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
-  --cta-button-bg: #01c0e2;
+  --cta-button-bg: #4a2885;
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -54,7 +54,7 @@
   /* 카드 색 */
   --section-card-bg: var(--body-bg);
   /* 카드 제목 색 */
-  --section-card-title-font: #000000;
+  --section-card-title-font: #da3f3f;
   /* 카드 설명 색 */
   --section-card-subtitle-font: #737373;
   
@@ -124,6 +124,40 @@ main {
   width: 1024px;
 }
 
+.top-banner-big-container {
+  display: block;
+}
+
+
+.top-banner-big {
+  width: 1024px;
+  background: var(--top-banner-bg);
+  color: var(--top-banner-font);
+  position: relative;
+}
+
+.top-banner-big__image-container {
+  width: 1024px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+}
+
+.top-banner__image-big {
+  width: 1024px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.top-banner-big__content {
+  width: 1024px;
+  height: 400px;
+  position: absolute;
+  z-index: 5;
+}
+
 header {
   /* width: 1024px; */
   width: 100%;
@@ -157,6 +191,8 @@ footer {
 }
 
 
+
+
 a {
   text-decoration: none;
   display: block;
@@ -169,7 +205,7 @@ a {
 nav {
   margin-left: auto;
   margin-right: 24px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .center {
@@ -221,7 +257,7 @@ nav {
 }
 
 .top-banner__subtitle {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
 }
 

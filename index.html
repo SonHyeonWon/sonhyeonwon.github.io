@@ -45,38 +45,42 @@
     </header>
     <main>
       <!-- banner -->
-      <div class="top-banner">
-        <div class="top-banner__content">
-          <p class="top-banner__title bold">
-            <!-- 띄어쓰기 포함 최대17자 -->
-            프론트엔드를 대표하는
-            <br />
-            <!-- 띄어쓰기 포함 최대17자 -->
-            라이브러리, 리액트.
-          </p>
-          <p class="top-banner__subtitle regular">
-            <!-- 띄어쓰기 포함 27자 -->
-            리액트 스쿨과 함께라면
-          </p>
-          <a href="https://projectlion.io/">
-            <div class="top-banner__cta-button center bold">
-              <!-- 띄어쓰기 포함 16자 -->
-              스쿨 신청 상담받기
+      <div class="top-banner-big-container" style="height: 400px;">
+        <div class="top-banner-big">
+          <div class="top-banner-big__image-container">
+            <img 
+              src="./statics/images/top-banner/top_big.png"
+              class="top-banner__image-big"
+            >
+          </div>
+          <div class="top-banner-big__content">
+            <div class="top-banner__content" style="text-align: center;">
+              <p class="top-banner__title bold" style="font-size: 42px; line-height: 52px;">
+                당신의 비즈니스 메타벨리에 확장하세요
+              </p>
+              <p class="top-banner__subtitle regular" style="font-size: 22px; line-height: 36px;">
+                <!-- 띄어쓰기 포함 27자 -->
+                투자부터 네트워킹까지 잘나가는 스타트업들이 모이는 메타버스 실리콘 밸리
+              </p>
+              <div style="display: flex; justify-content: center;">
+                <a href="https://projectlion.io/">
+                  <div class="top-banner__cta-button center bold" style=" margin-top: 30px">
+                    <!-- 띄어쓰기 포함 16자 -->
+                    입주 신청
+                  </div>
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
-        <!-- 배너 이미지 -->
-        <img
-          src="./statics/images/top-banner/origin_react_react_sns.png"
-          class="top-banner__image"
-        />
       </div>
+      
       <!-- services -->
       <section id="service-section" class="container">
         <div class="section-title">
           <h2 class="section-title__main center bold">Services</h2>
           <h3 class="section-title__sub center bold"
-            >지금 리액트스쿨과 함께 리액트를 배워야하는 이유!</h3
+            >지금 메타밸리에 입주해야 하는 이유!</h3
           >
         </div>
         <div class="grid-3fr">
@@ -88,14 +92,14 @@
             />
             <p class="card__title center bold">
               <!-- 최대 길이 17자 -->
-              리엑트</p
+              회사를 알려요</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 길이 22자 -->
-              개발자들이 가장 많이 배우고 싶어하는
+              홈페이지로는 표현하기 어려웠던 회사의 비전
               <br />
               <!-- 최대 길이 22자 -->
-              웹 프론트엔드 라이브러리입니다.
+              이제는 보지 말고 체험하게 하세요.
             </p>
           </div>
           <div class="card__">
@@ -106,17 +110,15 @@
             />
             <p class="card__title center bold"
               ><!-- 최대 길이 17자 -->
-              대기업에서 더 많이 찾는 개발자</p
+              투자 받기 쉬워요</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 길이 22자 -->
-              리액트는 규모가 큰 서비스 어플리케이션에도
+              발로 뛰어 다니며 받던 투자
               <br />
               <!-- 최대 길이 22자 -->
-              높은 안정성과 성능을 발휘합니다.
-              <!-- 최대 길이 22자 -->
-              <br />많은 대기업에서 리액트 개발자를 찾습니다.</p
-            >
+              이제는 메타벨리에서 VC들을 만나보세요.
+            
           </div>
           <div class="card__">
             <!-- 카드 세번째 이미지 -->
@@ -126,15 +128,15 @@
             />
             <p class="card__title center bold center">
               <!-- 최대 길이 17자 -->
-              완벽하게 준비된 커리큘럼
+              함께 성장해요
             </p>
             <p class="card__subtitle center regular">
               <!-- 최대 길이 22자 -->
-              리액트 스쿨이 준비한 <br />
+              메타벨리에서 주최하는 행사를 통해 <br />
               <!-- 최대 길이 22자 -->
-              쌍방향 커리큘럼을 통해서<br />
+              여러분들의 네트워크를 만들어가세요. <br />
               <!-- 최대 길이 22자 -->
-              빠른 습득을 보장합니다.</p
+              </p
             >
           </div>
         </div>
@@ -148,9 +150,9 @@
       <!-- productions -->
       <section id="product-section" class="container">
         <div class="section-title">
-          <h2 class="section-title__main center bold">Product</h2>
+          <h2 class="section-title__main center bold">Process</h2>
           <h3 class="section-title__sub center bold"
-            >리액트 스쿨의 교육 플랜들</h3
+            >메타벨리 입주 과정</h3
           >
         </div>
         <div class="grid-3fr">
@@ -162,15 +164,17 @@
             />
             <p class="card__title bold">
               <!-- 최대 길이 17자 -->
-              라이트 플랜</p
+              입주 신청</p
             >
             <p class="card__subtitle regular">
               <!-- 최대 길이 22자 -->
-              자신만의 페이스에 맞춰 학습하고 싶은 분들께 <br />
+              메타벨리에 입주해서 함께 성장하고 싶은 기업
+              <br />
               <!-- 최대 길이 22자 -->
-              추천합니다. 자기만의 수강계획으로 학습합니다.</p
+              지금 바로 입주 신청해주세요.
+              </p
             >
-            <div class="card__tag"> 자기주도학습 </div>
+            <div class="card__tag"> </div>
           </div>
           <div class="card__">
             <!-- 카드 두번째 이미지 -->
@@ -180,18 +184,18 @@
             />
             <p class="card__title bold">
               <!-- 최대 길이 17자 -->
-              베이직 플랜
+              입주 상담
             </p>
             <p class="card__subtitle regular">
               <!-- 최대 길이 22자 -->
-              학습 매니저 주도 일정 아래 꾸준하게 학습하고
+              메타벨리는 단순한 홈페이지가 아니에요.
               <br />
               <!-- 최대 길이 22자 -->
-              싶은 분들을 위한 코스입니다.
+              회사의 비전을 나타내는 방법을 같이 고민해요.
             </p>
             <div class="card__tag">
               <!-- 길이 자유 -->
-              일정을꼼꼼히
+              
             </div>
           </div>
           <div class="card__">
@@ -202,16 +206,16 @@
             />
             <p class="card__title bold">
               <!-- 최대 길이 17자 -->
-              플러스 플랜</p
+              입주 완료</p
             >
             <p class="card__subtitle regular"
-              >무조건 완강을 위한 집중케어 코스입니다. 전담 매
+              >세상에 하나뿐인 공간이 완성됐어요
               <!-- 최대 길이 22자 -->
               <br />
               <!-- 최대 길이 22자 -->
-              니저 분이 꼼꼼하게 밀착케어해드립니다.
+              메타벨리에서 주최하는 다양한 행사에 참여해요.
             </p>
-            <div class="card__tag"> 밀착케어코스 </div>
+            <div class="card__tag"></div>
           </div>
         </div>
       </section>
@@ -220,7 +224,7 @@
         <div class="section-title">
           <h2 class="section-title__main center bold">Team</h2>
           <h3 class="section-title__sub center bold"
-            >리액트 스쿨의 핵심 강사진</h3
+            >메타벨리 개발/운영진</h3
           >
         </div>
         <div class="grid-4fr">
@@ -229,22 +233,22 @@
             <img class="card__image" src="./statics/images/team/img_1st.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              Son Hyeon Won</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              CEO</p
             >
           </div>
           <div class="card__">
             <img class="card__image" src="./statics/images/team/img_2nd.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              Choi Eum Ji</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              Metaverse PM</p
             >
           </div>
           <div class="card__">
@@ -252,11 +256,11 @@
             <img class="card__image" src="./statics/images/team/img_3rd.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              Na Ha Bin</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              Metaverse Content Curator</p
             >
           </div>
           <div class="card__">
@@ -264,11 +268,11 @@
             <img class="card__image" src="./statics/images/team/img_4th.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              Song Swan</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              Metaverse Visual Director</p
             >
           </div>
         </div>
@@ -277,7 +281,7 @@
         <a class="cta-button__wrapper" href="https://projectlion.io/">
           <div class="cta-button center bold">
             <!-- 띄어쓰기 포함 16자 -->
-            스킬 신청 상담받기
+            입주 신청 상담받기
           </div>
         </a>
       </div>
@@ -447,7 +451,7 @@
             환불규정
           </div>
           <div class="footer-text-wrapper semi-bold">
-            팀이름
+            MetaMong
             <!-- <img class="seperator-image" src="./statics/images/Seperator.png" /> -->
             <svg
               width="1"
@@ -459,7 +463,7 @@
             >
               <path d="M1 0H0V10H1V0Z" />
             </svg>
-            대표자 이름
+            Son Hyeon Won 
             <!-- <img class="seperator-image" src="./statics/images/Seperator.png" /> -->
             <svg
               width="1"
@@ -471,7 +475,7 @@
             >
               <path d="M1 0H0V10H1V0Z" />
             </svg>
-            대표이메일
+            shwwwwwww@likelion.org
           </div>
         </div>
       </div>
