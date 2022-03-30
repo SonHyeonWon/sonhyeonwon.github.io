@@ -265,8 +265,8 @@ nav {
   margin-top: 67px;
   background: var(--cta-banner-button-bg);
   color: var(--cta-banner-button-font);
-  width: 310px;
-  height: 67px;
+  width: 150px;
+  height: 30px;
   font-size: 20px;
   border-radius: 6px;
 }
